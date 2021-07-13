@@ -7,4 +7,8 @@ Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home 
 * Onboard DHT-22 thermometer.
 * 1 pre-conditioned ADC input for water pressure or similar sensor.
 
+# Schematic
+![](https://i.ibb.co/VJNwNN0/rmaker-schematic.png)
+
+# PCB
 ![](https://i.ibb.co/NC6wXGM/rmaker.png)
