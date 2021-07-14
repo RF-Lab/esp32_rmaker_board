@@ -465,8 +465,6 @@ Text GLabel 6300 1600 2    50   Input ~ 0
 5v
 Wire Wire Line
 	6100 1600 6300 1600
-Text GLabel 4200 2200 0    50   Input ~ 0
-gpio4
 Text GLabel 4200 2300 0    50   Input ~ 0
 gpio16
 Text GLabel 4200 2400 0    50   Input ~ 0
@@ -476,8 +474,6 @@ gpio21
 Text GLabel 4200 3200 0    50   Input ~ 0
 gpio22
 Wire Wire Line
-	4200 2200 4450 2200
-Wire Wire Line
 	4200 2300 4450 2300
 Wire Wire Line
 	4200 2400 4450 2400
@@ -485,35 +481,16 @@ Wire Wire Line
 	4200 2900 4450 2900
 Wire Wire Line
 	4200 3200 4450 3200
-$Comp
-L Device:R R7
-U 1 1 60E60568
-P 1900 3100
-F 0 "R7" V 1693 3100 50  0000 C CNN
-F 1 "1k" V 1784 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 3100 50  0001 C CNN
-F 3 "~" H 1900 3100 50  0001 C CNN
-	1    1900 3100
-	0    1    1    0   
-$EndComp
 Text GLabel 6300 3400 2    50   Input ~ 0
 3v3
 Wire Wire Line
 	6100 3400 6300 3400
-Text GLabel 1550 3100 0    50   Input ~ 0
-3v3
-Wire Wire Line
-	1550 3100 1750 3100
-Text GLabel 2300 3100 2    50   Input ~ 0
-gpio4
-Wire Wire Line
-	2050 3100 2300 3100
 $Comp
 L Device:R R8
 U 1 1 60E67A6E
 P 1900 3400
 F 0 "R8" V 1693 3400 50  0000 C CNN
-F 1 "1k" V 1784 3400 50  0000 C CNN
+F 1 "10k" V 1784 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 3400 50  0001 C CNN
 F 3 "~" H 1900 3400 50  0001 C CNN
 	1    1900 3400
@@ -532,7 +509,7 @@ L Device:R R9
 U 1 1 60E692B1
 P 1900 3700
 F 0 "R9" V 1693 3700 50  0000 C CNN
-F 1 "1k" V 1784 3700 50  0000 C CNN
+F 1 "10k" V 1784 3700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 3700 50  0001 C CNN
 F 3 "~" H 1900 3700 50  0001 C CNN
 	1    1900 3700
@@ -559,8 +536,6 @@ F 3 "" H 2450 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 1600 2450 1600
-Text GLabel 2450 2400 2    50   Input ~ 0
-gpio4
 Wire Wire Line
 	2200 1700 2500 1700
 Text GLabel 2450 2600 2    50   Input ~ 0
@@ -582,14 +557,12 @@ Text GLabel 2500 1700 2    50   Input ~ 0
 gpio17
 Wire Wire Line
 	2200 2300 2450 2300
-Wire Wire Line
-	2200 2400 2450 2400
 $Comp
 L Device:R R10
 U 1 1 60E88B79
 P 1900 4000
 F 0 "R10" V 1693 4000 50  0000 C CNN
-F 1 "1k" V 1784 4000 50  0000 C CNN
+F 1 "10k" V 1784 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1830 4000 50  0001 C CNN
 F 3 "~" H 1900 4000 50  0001 C CNN
 	1    1900 4000
@@ -842,19 +815,6 @@ Wire Wire Line
 	7900 3900 8050 3900
 Wire Wire Line
 	7900 4000 8050 4000
-$Comp
-L power:GND #PWR0108
-U 1 1 60EE87CF
-P 2450 2500
-F 0 "#PWR0108" H 2450 2250 50  0001 C CNN
-F 1 "GND" V 2455 2327 50  0000 C CNN
-F 2 "" H 2450 2500 50  0001 C CNN
-F 3 "" H 2450 2500 50  0001 C CNN
-	1    2450 2500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2200 2500 2450 2500
 Wire Wire Line
 	2200 2600 2450 2600
 $Comp
@@ -876,4 +836,72 @@ Text GLabel 10800 3800 2    50   Input ~ 0
 gpio22
 Text GLabel 8050 4000 2    50   Input ~ 0
 5v
+Text GLabel 2450 2400 2    50   Input ~ 0
+5v
+Wire Wire Line
+	2200 2400 2450 2400
+$Comp
+L power:GND #PWR0107
+U 1 1 60EFEC7E
+P 1450 2300
+F 0 "#PWR0107" H 1450 2050 50  0001 C CNN
+F 1 "GND" V 1455 2127 50  0000 C CNN
+F 2 "" H 1450 2300 50  0001 C CNN
+F 3 "" H 1450 2300 50  0001 C CNN
+	1    1450 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 2300 1650 2300
+$Comp
+L power:GND #PWR0110
+U 1 1 60F05E5E
+P 1400 1600
+F 0 "#PWR0110" H 1400 1350 50  0001 C CNN
+F 1 "GND" V 1405 1427 50  0000 C CNN
+F 2 "" H 1400 1600 50  0001 C CNN
+F 3 "" H 1400 1600 50  0001 C CNN
+	1    1400 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 60F06283
+P 1400 1800
+F 0 "#PWR0111" H 1400 1550 50  0001 C CNN
+F 1 "GND" V 1405 1627 50  0000 C CNN
+F 2 "" H 1400 1800 50  0001 C CNN
+F 3 "" H 1400 1800 50  0001 C CNN
+	1    1400 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1400 1600 1650 1600
+Wire Wire Line
+	1400 1800 1650 1800
+$Comp
+L power:GND #PWR0112
+U 1 1 60F0D640
+P 7200 3800
+F 0 "#PWR0112" H 7200 3550 50  0001 C CNN
+F 1 "GND" V 7200 3600 50  0000 C CNN
+F 2 "" H 7200 3800 50  0001 C CNN
+F 3 "" H 7200 3800 50  0001 C CNN
+	1    7200 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7200 3800 7350 3800
+Text GLabel 2450 2500 2    50   Input ~ 0
+ext_6.5_12v
+Wire Wire Line
+	2200 2500 2450 2500
+Text GLabel 7200 3900 0    50   Input ~ 0
+5v
+Text GLabel 7200 4000 0    50   Input ~ 0
+5v
+Wire Wire Line
+	7200 3900 7350 3900
+Wire Wire Line
+	7200 4000 7350 4000
 $EndSCHEMATC
