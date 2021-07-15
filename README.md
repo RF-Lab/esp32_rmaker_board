@@ -9,11 +9,11 @@ Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home 
 
 # Schematic
 <img src="https://i.ibb.co/VJNwNN0/rmaker-schematic.png" width="300" />
-![](https://i.ibb.co/VJNwNN0/rmaker-schematic.png)
 
 # PCB
-![](https://i.ibb.co/NC6wXGM/rmaker.png)
+<img src="https://i.ibb.co/NC6wXGM/rmaker.png" width="300" />
 
 # [Rain Maker](https://rainmaker.espressif.com/) Android app interface example
-![](https://i.ibb.co/LdtL0CB/espressif-rainmaker.jpg)
+<img src="https://i.ibb.co/LdtL0CB/espressif-rainmaker.jpg" width="300" />
+
 
