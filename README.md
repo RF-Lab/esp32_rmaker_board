@@ -8,6 +8,7 @@ Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home 
 * 1 pre-conditioned ADC input for water pressure or similar sensor.
 
 # Schematic
+<img src="https://i.ibb.co/VJNwNN0/rmaker-schematic.png" width="300" />
 ![](https://i.ibb.co/VJNwNN0/rmaker-schematic.png)
 
 # PCB
