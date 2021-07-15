@@ -2,6 +2,7 @@
 
 Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home automation controller. This board includes:
 
+* [ESP32 DevKit](https://www.aliexpress.com/wholesale?catId=0&initiative_id=SB_20210715114037&SearchText=esp32).
 * 6 buffered open collector interfaces for switch control.
 * 3 pull-up input interfaces for push buttons or dry electrode or other 1-pin digital sensors (like Hall-sensor).
 * Onboard DHT-22 thermometer.
