@@ -14,6 +14,6 @@ Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home 
 <img src="https://i.ibb.co/NC6wXGM/rmaker.png" width="300" />
 
 # [Rain Maker](https://rainmaker.espressif.com/) Android app interface example
-<img src="https://i.ibb.co/LdtL0CB/espressif-rainmaker.jpg" width="50%" height="50%" />
+<img src="https://i.ibb.co/LdtL0CB/espressif-rainmaker.jpg" width="20%" height="20%" />
 
 
