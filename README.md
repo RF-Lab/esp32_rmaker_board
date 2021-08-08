@@ -8,6 +8,9 @@ Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home 
 * Onboard DHT-22 thermometer.
 * 1 pre-conditioned ADC input for water pressure or similar sensor.
 
+# esp32_rmaker_board installed to Legrand LX3
+<img src="https://i.ibb.co/rkhMLT9/IMG-20210808-201346-1.jpg" width="500" />
+
 # Schematic
 <img src="https://i.ibb.co/VJNwNN0/rmaker-schematic.png" width="500" />
 
