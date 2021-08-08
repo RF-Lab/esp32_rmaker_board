@@ -11,6 +11,8 @@ Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home 
 # esp32_rmaker_board installed to Legrand LX3
 <img src="https://i.ibb.co/rkhMLT9/IMG-20210808-201346-1.jpg" width="500" />
 
+<img src="https://i.ibb.co/p136gCR/IMG-20210808-201434-1.jpg" width="500" />
+
 # Schematic
 <img src="https://i.ibb.co/VJNwNN0/rmaker-schematic.png" width="500" />
 
