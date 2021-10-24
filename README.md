@@ -20,8 +20,9 @@ Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home 
 
 <img src="https://i.ibb.co/qJRjqGV/IMG-20211024-143549-1.jpg"  width="500" />
 
-<img src="https://i.ibb.co/L5drtm6/IMG-20211024-165225-1.jpg"  width="500" />
+<img src="https://i.ibb.co/GCf9xwT/ph4.png"  width="500" />
 
+<img src="https://i.ibb.co/L5drtm6/IMG-20211024-165225-1.jpg"  width="500" />
 
 # Schematic
 <img src="https://i.ibb.co/VJNwNN0/rmaker-schematic.png" width="500" />
