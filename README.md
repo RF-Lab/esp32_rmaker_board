@@ -16,11 +16,11 @@ Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home 
 
 # esp32_rmaker_board installed to Legrand Plexo
 
-<img src="https://i.ibb.co/SPsxK6G/IMG-20211024-143531-1.jpg" />
+<img src="https://i.ibb.co/SPsxK6G/IMG-20211024-143531-1.jpg"  width="500" />
 
-<img src="https://i.ibb.co/qJRjqGV/IMG-20211024-143549-1.jpg" />
+<img src="https://i.ibb.co/qJRjqGV/IMG-20211024-143549-1.jpg"  width="500" />
 
-<img src="https://i.ibb.co/L5drtm6/IMG-20211024-165225-1.jpg" />
+<img src="https://i.ibb.co/L5drtm6/IMG-20211024-165225-1.jpg"  width="500" />
 
 
 # Schematic
