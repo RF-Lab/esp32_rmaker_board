@@ -7,7 +7,7 @@ Rmaker is open source [Rain Maker](https://rainmaker.espressif.com/) ready home 
 * 3 pull-up input interfaces for push buttons or dry electrode or other 1-pin digital sensors (like Hall-sensor).
 * Onboard DHT-22 thermometer.
 * 1 pre-conditioned ADC input for water pressure or similar sensor.
-* Firmware examples based on Espressiff code can be found [Here](https://github.com/RF-Lab/esp32_rmaker_sw)
+* Firmware examples based on Espressif code can be found [Here](https://github.com/RF-Lab/esp32_rmaker_sw)
 
 # esp32_rmaker_board installed to Legrand LX3
 
